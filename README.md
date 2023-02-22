@@ -1,8 +1,9 @@
 
 
-# :raising_hand: LIVE VIRTUAL EVENT 👉 [MARCH 13-MARCH 17, 2023 CLICK TO REGISTER](https://app.smartsheet.com/b/publish?EQBCT=f3810ff59f864c45a4d88ed8b0d08a1f) 👈 :raising_hand:
+# :raising_hand: LIVE VIRTUAL EVENT :raising_hand:
 
 
+# 👉 [MARCH 13-MARCH 17, 2023 CLICK TO REGISTER](https://app.smartsheet.com/b/publish?EQBCT=f3810ff59f864c45a4d88ed8b0d08a1f) 👈 
 
 
 # :construction: GITHUB REPOSITORY UNDER CONSTRUCTION - WORK IN PROGRESS - STAY TUNED :construction:
