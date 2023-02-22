@@ -1,12 +1,11 @@
 
-# :construction: UNDER CONSTRUCTION - WORK IN PROGRESS - STAY TUNED :construction:
 
-# :raising_hand: LIVE VIRTUAL EVENT MARCH 13-MARCH 17, 2023 :raising_hand:
-
-# :point_right: REGISTRATION COMING SOON :point_left:
+# :raising_hand: LIVE VIRTUAL EVENT 👉 [MARCH 13-MARCH 17, 2023 CLICK TO REGISTER](https://app.smartsheet.com/b/publish?EQBCT=f3810ff59f864c45a4d88ed8b0d08a1f) 👈 :raising_hand:
 
 
 
+
+# :construction: GITHUB REPOSITORY UNDER CONSTRUCTION - WORK IN PROGRESS - STAY TUNED :construction:
 
 
 |      |        |
@@ -14,24 +13,24 @@
 | <img src="https://github.com/kids-first/kf-cloud-credits/blob/main/assets/kfdrc-logo-sm.png"  width="500"  align=left> | <img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/INCLUDEDataCoordinatingCenter.png"  width="500" align=right> |
 
 
-#  Elements of Style in Workflow Creation Maintenance 
+#  Kids First & INCLUDE Elements of Style in Workflow Creation 
 
-In this Elements of Style for Workflow Creation and Maintenance, users learn the know-how to ask scientific questions with these data using cloud platforms and workflows.   Users will learn how to build and share processes that assure reproducibility, repurposablility regardless of the computational environment.   While many things are possible, the user will be oriented to approaching their work in a modular, testable fashion.  
+Gabriella Miller Kids First Pediatric Research Program (Kids First) and the INCLUDE (INvestigation of Co-occuring Conditions Across the Lifespan to Understand Down syndromE) Project are joining forces to offer a 5-day training program designed specifically for researchers.  Learn how to use cloud platforms and workflows to ask scientific questions with ease and confidence.   Our expert instructors will guide you through the processes that assure reproducibility, repurposability regardless of the computational environment.  Achieve greater success with a modular, testable approach to work.
 
-The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a trans-NIH Common Fund program whose goal is to help researchers uncover new insights into the biology of childhood cancer and structural birth defects, including the discovery of shared genetic pathways between these disorders. To achieve this goal, the program has developed the Gabriella Miller Kids First Data Resource, a cloud-based platform which publicly shares genetic and clinical data from childhood cancer and structural birth defect cohorts, and includes the [Gabriella Miller Kids First portal](https://portal.kidsfirstdrc.org/) and other tools to foster analysis and collaboration. 
+In 2018, the [NIH](https://www.nih.gov/) launched [INCLUDE Project](https://www.nih.gov/include-project) to improve the health and quality of life for people with Down syndrome.  The INCLUDE Data Coordinating Center (DCC) was created to give Down Syndrome researchers and the community access to data and analysis tools including a free-to-use resource called the [INCLUDE Data Hub](https://portal.includedcc.org/login?redirect_path=/dashboard).   The Data Hub brings information and resources from many sources to gether in one place and allows scientists to study conditions affecting individuals with Down syndrome fastr than ever before.
+
+Kids First is a trans-NIH Common Fund program whose goal is to help researchers uncover new insights into the biology of childhood cancer and structural birth defects, including the discovery of shared genetic pathways between these disorders.   To achieve this goal, the program has developed the Kids First Data Resource Center, a cloud-based platform which publicly shares genetic and clinical data from 30,000 childhood cancer and structural birth defect patients and families.   Through the [Kids First Data Resource Portal](https://portal.kidsfirstdrc.org/login) researchers have access to analysis tools and collaborative research.
+
+**Both of these platforms are gateways that provide democratizing access to the vast and flexible world of cloud computing, powered by CAVATICA and Seven Bridges**
+
+**Before you attend the course, you need to set up [GitHub](https://github.com/), [Zenodo](https://zenodo.org/) and [ORCID](https://orcid.org/register) accounts and have basic knowledge of the terminal window, shell environment and the commands for navigation within that environment**
 
 ## Course Overview:
-
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/ElementsOfStyleCourseOverview.png" >
+<img src="https://github.com/NIH-NICHD/Kids-First-INCLUDE-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/ElementsOfStyleCourseOverview.png" >
 <br/><br/>                                                     
 
 ## Agenda for Pre-Training Workshop
 <br/><br/>
-
-[Pre-Training Workshop Chat 2022 August 19](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/chats/KidsFirstPreTrainingEventZoomChat2022August19.txt)
-
-[Pre-Training Workshop Recording 2022 August 19](https://us06web.zoom.us/rec/share/y9w1Vw7TUe7FdeSMwa5V_Cu2HabshoYFgF_l1-9umMZZ8qWzRsJlbuxZeQ2B66qr.v0mJkwej5t0N_oxY?startTime=1660920934000)
-_Passcode required - mailed to participants.  If not registered, register and request passcodes_
 
 [Register here](https://us06web.zoom.us/meeting/register/tZMtcumpqT8qH9M7YI-s8sXerIaMsdit297w)
 
@@ -39,41 +38,40 @@ _Passcode required - mailed to participants.  If not registered, register and re
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
 | 11.00 - 11.10 | :wave: *Welcome Address, Motivation, [Platform as a service Presentation](https://docs.google.com/presentation/d/1_Rsc8BknYyWGt-Br2GVkpRmT6DJy4dCklHCp7esy1VI/edit?usp=sharing) Tutorial Agenda* |
-| 11.10 - 11.20 |[GitHub Account Creation](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)<img src="https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/Octocat.png" width="50" align="right">|
-| 11.20 - 11.30 |[Zenodo Account Creation](https://zenodo.org/signup/)<img src="https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/Zenodo_logo.jpg" width="50" align="right">|
-| 11.30 - 11.50| [Kids First and CAVATICA Registrations](https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/tree/main/classes/Creating-Kids-First-And-Other-Account-Registrations#readme)<img src="https://github.com/kids-first/kf-cloud-credits/blob/main/assets/kfdrc-logo-sm.png" width="50" align="right"> |
+| 11.10 - 11.20 |[GitHub Account Creation](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)<img src="https://github.com/NIH-NICHD/Kids-First-INCLUDE-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/Octocat.png" width="50" align="right">|
+| 11.20 - 11.30 |[Zenodo Account Creation](https://zenodo.org/signup/)<img src="https://github.com/NIH-NICHD/Kids-First-INCLUDE-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/Zenodo_logo.jpg" width="50" align="right">|
+| 11.30 - 11.50| [Kids First, INCLUDE and CAVATICA Registrations](https://github.com/NIH-NICHD/Kids-First-INCLUDE-Elements-of-Style-Workflow-Creation-Maintenance/tree/main/classes/Creating-Kids-First-And-Other-Account-Registrations#readme)<img src="https://github.com/kids-first/kf-cloud-credits/blob/main/assets/kfdrc-logo-sm.png" width="50" align="right"> |
 | 11.50 - 12:00 | :raised_hand: *Wrap up and overview of next days topics* |
 
-## Additional resources:
+## Quick Links and Additional resources:
+- [GitHub](https://github.com/)
+- [Zenodo](https://zenodo.org/) 
 - [ORCID](https://orcid.org) [Registration Now!](https://orcid.org/register)
 - [ERA Commons ID](https://www.era.nih.gov/reg-accounts/register-commons.htm)
+- [INCLUDE Data Hub](https://portal.includedcc.org/login?redirect_path=/dashboard)
+- [Kids First Data Resource Portal](https://portal.kidsfirstdrc.org/login)
+- [Cavatica by Seven Bridges](https://cavatica.sbgenomics.com)
 
 
 <br/><br/>                                                     
 ## Agenda for the Day 1: Reasoning
 
-[Day 1 Workshop Chat 2022 August 22](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/chats/KidsFirstPreTrainingEventZoomChat2022August22.txt)
-
-[Day 1 Workshop Recording 2022 August 22](https://us06web.zoom.us/rec/share/lEyLOOiDbyjvXhXdF8Mt3EvIYQssoO1AQkzVyJ9nr4SbRgPKjTYVQ2XLfDddEs8t.PpxYpFTGoqVGNE2r?startTime=1661178610000)
-_Passcode required - mailed to participants.  If not registered, register and request passcodes_
-
-[Register here](https://us06web.zoom.us/meeting/register/tZMtcumpqT8qH9M7YI-s8sXerIaMsdit297w)
-
 <br/><br/>                                                     
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
 | 11.00 - 11:30 | :wave: [Welcome Address, Motivation, Cloud Credit Program, Platform as a service Presentation](https://docs.google.com/presentation/d/1_Rsc8BknYyWGt-Br2GVkpRmT6DJy4dCklHCp7esy1VI/edit?usp=sharing) |
-| 11.30 - 11.45 | [A few simple rules for easier workflow maintenance and reuse](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Elements-of-Style/A-Few-Simple-Rules-Shortened.md)<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/The_Elements_of_Programming_Style.jpg" width="100" align="right">|
-| 11:45 - 12:00 | *[Lets Dive In, Create an Account, Start a JupyterLab Notebook](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Lets-Dive-In#readme)* |
+| 11.30 - 11.45 | [A few simple rules for easier workflow maintenance and reuse](https://github.com/NIH-NICHD/Kids-First-INCLUDE-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Elements-of-Style/A-Few-Simple-Rules-Shortened.md)<img src="https://github.com/NIH-NICHD/Kids-First-INCLUDE-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/The_Elements_of_Programming_Style.jpg" width="100" align="right">|
+| 11:45 - 12:00 | *[Lets Dive In, Create an Account, Start a JupyterLab Notebook](https://github.com/NIH-NICHD/Kids-First-INCLUDE-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Lets-Dive-In#readme)* |
 | 12.00 - 12.10 |:coffee: Short Break |
-| 12.10 - 12.25| [Introduction to the Command-line](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook/README.md#wave-welcome-back---lets-begin-with-the-command-line) |
-| 12.25 - 12.50 | [Example Volcano Plot on CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook/README.md#open-the-reading-data-and-plotting-in-ripynb)<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICALogo.png" width="100" align="right">|
+| 12.10 - 12.25| [Introduction to the Command-line](https://github.com/NIH-NICHD/Kids-First-INCLUDE-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook/README.md#wave-welcome-back---lets-begin-with-the-command-line) |
+| 12.25 - 12.50 | [Example Volcano Plot on CAVATICA](https://github.com/NIH-NICHD/Kids-INCLUDE-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook/README.md#open-the-reading-data-and-plotting-in-ripynb)<img src="https://github.com/NIH-NICHD/Kids-First-INCLUDE-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICALogo.png" width="100" align="right">|
 | 12.50 - 13:00 | :raised_hand: *Wrap up and overview of next days topics* |
 
 ## Additional Resources
 - [NIH Kids First Cloud Credit Program Overview](https://github.com/kids-first/kf-cloud-credits#readme)
+- [NIH INCLUDE Cloud Credit Program Overview]
 - [How to apply for NIH Kids First Cloud Credits](https://github.com/kids-first/kf-cloud-credits/blob/main/applying.md)
-- [Monthly User Support Office Hours](https://tinyurl.com/KidsFirstOfficeHours)
+- [Joint Kids First and INCLUDE with Seven Bridges Monthly User Support Office Hours](https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fincludedcc.us5.list-manage.com%2Ftrack%2Fclick%3Fu%3D1048def199b4f4ce305d8e033%26id%3D26e0bfbc1f%26e%3D6e8a599212&data=05%7C01%7Canne.deslattesmays%40nih.gov%7Ce563583ad1364ca6a49008db0f935ddc%7C14b77578977342d58507251ca2dc2b06%7C0%7C0%7C638120897848575925%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=pJIw4m8w9RlrEe5kxdkMC2LLjZwywyhwmyIWfqmzpjI%3D&reserved=0)
 
 ## JupyterLab Notebook Conversions
 The Jupyter Text - do you like working in [R Studio](https://www.rstudio.com/) with R-markdown?  You can convert easily JupyterLab notebooks with R kernels to R Script or R markdown.  Explore the concept here:
