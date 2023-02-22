@@ -9,17 +9,17 @@ Navigate to [CAVATICA](https://cavatica.sbgenomics.com)
 
 First screen you will see:
 
-<img src="https://github.com/NIH-NICHD/Kids-INCLUDE-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICACreateAnAccountNumber1.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-INCLUDE-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICACreateAnAccountNumber1.png">
 
 You can either select `Create an account` or `Log in with eRA Commons`.
 
 If you select `Create an account`, you will see:
 
-<img src="https://github.com/NIH-NICHD/Kids-INCLUDE-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICACreateAnAccountNumber2.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-INCLUDE-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICACreateAnAccountNumber2.png">
 
 Or if you select `Log in with eRACommons` you will see:
 
-<img src="https://github.com/NIH-NICHD/Kids-INCLUDE-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICACreateAnAccountERACommonsNumber3.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-INCLUDE-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICACreateAnAccountERACommonsNumber3.png">
 
 
 See further documentation:
