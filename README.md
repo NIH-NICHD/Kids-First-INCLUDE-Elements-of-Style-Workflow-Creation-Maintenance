@@ -11,7 +11,7 @@
 
 |      |        |
 | ------------- | --------------------------------------------------------------------------- |
-| <img src="https://github.com/kids-first/kf-cloud-credits/blob/main/assets/kfdrc-logo-sm.png"  width="500"  align=left> | <img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/INCLUDEDataCoordinatingCenter.png"  width="500" align=right> |
+| <img src="https://github.com/kids-first/kf-cloud-credits/blob/main/assets/kfdrc-logo-sm.png" width="500"  align=left> | <img src="https://github.com/NIH-NICHD/Kids-First-INCLUDE-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/INCLUDEDataCoordinatingCenter.png"  width="500" align=right> |
 
 
 #  Kids First & INCLUDE Elements of Style in Workflow Creation 
