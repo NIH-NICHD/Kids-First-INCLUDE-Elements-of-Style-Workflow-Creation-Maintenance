@@ -16,8 +16,5 @@ Kids First is a trans-NIH Common Fund program whose goal is to help researchers 
 
 **Before you attend the course, you need to set up [GitHub](https://github.com/), [Zenodo](https://zenodo.org/) and [ORCID](https://orcid.org/register) accounts and have basic knowledge of the terminal window, shell environment and the commands for navigation within that environment**
 
-## Course Overview:
-<img src="img/ElementsOfStyleCourseOverview.png" >
-<br/><br/>                                                     
 
-## [Course Website](https://nih-nichd.github.io/Kids-First-INCLUDE-Elements-of-Style-Workflow-Creation-Maintenance/)
+## [Visit the Kids First & INCLUDE Elements of Style Course Website]](https://nih-nichd.github.io/Kids-First-INCLUDE-Elements-of-Style-Workflow-Creation-Maintenance/)
