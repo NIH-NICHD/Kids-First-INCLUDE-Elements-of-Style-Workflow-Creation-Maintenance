@@ -5,7 +5,7 @@
 
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
-| 11.00 - 11.10 | *Welcome Address, Motivation, [Platform as a service Presentation](https://docs.google.com/presentation/d/1_Rsc8BknYyWGt-Br2GVkpRmT6DJy4dCklHCp7esy1VI/edit?usp=sharing)* |
+| 11.00 - 11.10 | *Welcome Address, Motivation, [Platform as a service Presentation](https://docs.google.com/presentation/d/1XiyZwF9YsJadvo8qlA3Vyy1eYCjOtHuJ8-QGFDKKvlU/edit?usp=sharing)* |
 | 11.10 - 11.30 | Let's Register! |
 | 11.30 - 11.50| [Kids First, INCLUDE and CAVATICA Registrations](https://github.com/NIH-NICHD/Kids-First-INCLUDE-Elements-of-Style-Workflow-Creation-Maintenance/tree/main/classes/Creating-Kids-First-And-Other-Account-Registrations#readme)<img src="../img/kfdrc-logo-sm.png" width="50" align="right"> |
 | 11.50 - 12:00 | *Wrap up and overview of next days topics* |
