@@ -1,4 +1,4 @@
-# Kids First and CAVATICA Account Registrations
+## Kids First and CAVATICA Account Registrations
 
 Today in this pre-training workshop, we will spend some time to get everyone registered for a few accounts.  By now, we have a GitHub account, an ORCID and hopefully an ERA-Commons ID.  This last one will allow us to take advantage of the NIH Researcher Authentication Service.   In this portion of the class, we will be registering with Kids First as well as CAVATICA and connecting these two accounts together.
 
