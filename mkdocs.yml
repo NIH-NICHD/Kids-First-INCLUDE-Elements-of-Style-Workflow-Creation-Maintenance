@@ -8,19 +8,18 @@ edit_uri: blob/main/docs/
 nav:
    - Home: index.md
    - Agenda:
-       - Pre-training: classes/pre-training.md
-       - Day 1 - Reasoning: classes/command-line-basics.md
-       - Day 2 - Code versioning: classes/github.md
-       - Day 3 - Containerization: classes/containerization.md
-       - Day 4 - Workflow development: classes/workflow-development.md
-       - Day 5 - Workflow execution: classes/workflow-execution.md
+       - Pre-training: classes/pre-training/pre-training.md
+       - Day 1 - Reasoning: classes/command-line/command-line-basics.md
+       - Day 2 - Code versioning: classes/github/github.md
+       - Day 3 - Containerization: classes/containerization/containerization.md
+       - Day 4 - Workflow development: classes/workflow-development/workflow-development.md
+       - Day 5 - Workflow execution: classes/workflow-execution/workflow-execution.md
  
    - About:
        - Background: about/background.md
        - Attribution:  about/attribution.md
-       - License: about/LICENSE
-       
-
+       - License: about/license.md
+       - Making this site: about/how-this-site-was-made.md
 theme:
    name: readthedocs
    locale: en

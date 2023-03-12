@@ -6,8 +6,11 @@
 
 |      |        |
 | ------------- | --------------------------------------------------------------------------- |
-| <img src="img/kfdrc-logo-sm.png" width="750"  align=left> | <img src="img/INCLUDEDataCoordinatingCenter.png"  width="750" align=right> |
+| [<img src="img/kfdrc-logo-sm.png" width="750"  align=left>](https://kidsfirstdrc.org/) | [<img src="img/INCLUDEDataCoordinatingCenter.png" width="750" align=right> ](https://includedcc.org/)  |
 
+|              |
+| ----------------------------------------------------------|
+| [<img src="img/CAVATICALogo.png" width="750" align=center>](https://cavatica.sbgenomics.com) |
 
 ##  Kids First & INCLUDE Elements of Style in Workflow Creation 
 
