@@ -1,0 +1,37 @@
+site_name: Kids First & INCLUDE Elements of Style
+site_description: A course to provide literacy and guides for platform agnostic development for Bioinformatics
+site_author: Anne Deslattes Mays, PhD
+
+repo_url: https://github.com/adeslatt/Kids-First-INCLUDE-Elements-of-Style-Workflow-Creation-Maintenance
+edit_uri: blob/main/docs/
+
+nav:
+   - Home: index.md
+   - Agenda:
+       - Pre-training: classes/pre-training.md
+       - Day 1 - Reasoning: classes/command-line-basics.md
+       - Day 2 - Code versioning: classes/github.md
+       - Day 3 - Containerization: classes/containerization.md
+       - Day 4 - Workflow development: classes/workflow-development.md
+       - Day 5 - Workflow execution: classes/workflow-execution.md
+ 
+   - About:
+       - Background: about/background.md
+       - Attribution:  about/attribution.md
+       - License: about/LICENSE
+       
+
+theme:
+   name: readthedocs
+   locale: en
+      
+
+extra_css:
+    - css/extra.css
+
+markdown_extensions:
+    - toc:
+        permalink: []
+    - attr_list
+    - def_list
+    - tables
