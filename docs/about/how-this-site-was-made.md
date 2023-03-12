@@ -1,6 +1,6 @@
 # How this site was made
 
-This site was made and is maintained using [MkDocs](mkdocs.org).
+This site was made and is maintained using [MkDocs](https://mkdocs.org).
 
 It was pretty straight forward to convert the existing GitHub repository structure used for teaching the Elements of Style course.  The tricky part was understanding the deployment aspect.
 
