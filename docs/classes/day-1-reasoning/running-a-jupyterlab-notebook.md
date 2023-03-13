@@ -46,29 +46,7 @@ Now let's use our *`cd`* command to change into the appropriate directory.
 
 ```bash
 cd exampleVolcanoPlotNotebook
-111
-
-### Open the `Reading-data-and-plotting-in-R.ipynb`
-
-Next, we will execute the second `jupyterlab` notebook, this one is running the `R` kernel.
-
-Look again at the folders on the left and open the second notebook `Reading-data-and-plotting-in-R.ipynb` by double-clicking on the notebook.
-
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabNotebook2-ReadingDataAndPlottingR.png">
-
-Again, `Restart Kernel and Clear Outputs`.
-
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabNotebook2-RestartKernelAndClearOutputs.png">
-
-Confirm your desire to do so:
-
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabNotebook2-RestartKernalConfirmation.png">
-
-This is running the `R` Kernel and as we load the libraries we see that there is a `[*]` inside the brackets.   This indicates that it is executing and looks like this:
-
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabNotebook2-RWaitingUntilCompletion.png">
-
-When completed, it will look the `[*]` becomes `[1]`.
+```
 
 ## Recap
 
@@ -79,10 +57,6 @@ In this lesson:
 * We executed and saw some Command Line Functions
 * We generated a Volcano Plot in a JupyterLab notebook running an `R` kernel
 
-
-## Return to the Agenda
-
-[Agenda for the Day 1: Reasoning](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-the-day-1-reasoning)
 
 ## Additional resources:
 
