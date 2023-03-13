@@ -40,7 +40,7 @@ When satisfied that it is correct, press <img src="/../../img/CAVATICADashboardC
 
 Upon success, we will see it is starting, lets take a small <img src="/../../img/coffee.png" width=50>  break.
 
-<img src="/../../img/CAVATICADashboardProjectsStartJupyterLabNotebookConfirmation.png" width=500>
+<img src="/../../img/KidsFirstINCLUDEEosAnalysisNotebookStarting.png" width=500>
 
 ## After <img src="/../../img/coffee.png" width=50>  we will begin with the Command Line
 

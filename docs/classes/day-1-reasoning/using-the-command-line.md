@@ -7,27 +7,25 @@ Because I want to make this course accessible to researchers/clinicians who may 
 
 **ChatGPT** had the following response
 
-```bash
 
-A terminal window is a type of computer program that allows you to interact with your computer using text commands instead of clicking on icons or menus with a mouse. It's a way to access the "guts" of your computer and execute specific instructions.
-
-A command line is the text interface in a terminal window where you can enter these instructions or commands. Essentially, it's a way to communicate with your computer using a language that it understands. Instead of pointing and clicking with a mouse, you type out specific commands to make things happen.
-
-For example, if you want to create a new folder, you could type "mkdir foldername" in the command line, and the computer would create a new folder with the name you specified. Or if you want to open a specific program, you could type its name followed by ".exe" and press enter, and the program would launch.
-
+> A terminal window is a type of computer program that allows you to interact with your computer using text commands instead of clicking on icons or menus with a mouse. It's a way to access the "guts" of your computer and execute specific instructions.
+>
+>A command line is the text interface in a terminal window where you can enter these instructions or commands. Essentially, it's a way to communicate with your computer using a language that it understands. Instead of pointing and clicking with a mouse, you type out specific commands to make things happen.
+>
+>For example, if you want to create a new folder, you could type "mkdir foldername" in the command line, and the computer would create a new folder with the name you specified. Or if you want to open a specific program, you could type its name followed by ".exe" and press enter, and the program would launch.
+>
 The command line can be a powerful tool for accomplishing tasks quickly and efficiently, but it does require some knowledge of specific commands and syntax. However, there are many resources available online for learning how to use the command line, and many people find it to be a valuable skill to have.
+>
+>However, there are many resources available online for learning how to use the command line, and many people find it to be a valuable skill to have.
 
-```
-x. However, there are many resources available online for learning how to use the command line, and many people find it to be a valuable skill to have.~
-Maybe before we begin with using the One of the barriers to getting started in creating ones own workflows, or even navigating and using simple tools for inspecting files, is understanding to do so requires understanding that there is a terminal window within which you can 
-Useful commands to perform programmatically common operations over files and folders (create, copy, move, delete, download or navigate folders)
+
+We begin by using a tool [ExlainShell](https://explainshell.com/)
 
 
 ## Utilising the ExplainShell interactive command explorer
 
-There is an excellent resource that provides an interactive command explainer that can be accessed at https://explainshell.com/.
+There is an excellent resource that provides an interactive command explainer that can be accessed at [ExplainShell](https://explainshell.com/)
 Feel free to use and paste the following commands from the tutorial to see an explanation of the command based on the official commands documentation.
-
 
 
 ## 1. List files in the current folder 
@@ -38,22 +36,57 @@ Directory is used interchangeably with the term folder.
 ls -l
 ```
 
+Inside [ExplainShell](https://explainshell.com/) you will see the following explanation:
+
+<img src="/../../img/ExplainShell_ls_l.png" width=500>
+
 ## 2. Inspect your current folder location in the file system
 
-To see in which folder you are currently in, use the **`pwd`** command, short fro **`print working directory`**. This will return the absolut path to the location you currently stand.
+To see in which folder you are currently in, use the **`pwd`** command, short for **`print working directory`**. This will return the absolut path to the location you currently stand.
 
 > NOTE: 
-What is an _absolut_ path? And what is not considered an absolut path?
+What is an _absolute_ path? what is a _relative_ path? 
 
-See this resource for a thorough explanation: https://linuxfoundation.org/blog/classic-sysadmin-absolute-path-vs-relative-path-in-linux-unix/
+[See this resource for a thorough explanation](https://linuxfoundation.org/blog/classic-sysadmin-absolute-path-vs-relative-path-in-linux-unix/)
+
+Again feel free now to copy and paste this command in the [ExplainShell](https://explainshell.com)
 
 ```bash
 pwd
 ```
 
+<img src="/../../img/ExplainShellpwd.png" width=500>
+
+
 ## 3. Copy a file
 
-Duplicate the file content while retaining the initial copy
+Now let's go to a terminal window inside of the JupyterLab notebook you have just started up.
+
+Select terminal
+
+<img src="/../../img/JupyterLabNotebookSelectTerminalWindow.png" width=500>
+
+Then you will see the command-line:
+
+<img src="/../../img/JupyterLabNotebookCommandLine.png" width=500>
+
+Before we copy a file, let's use a command-line command *`echo`* and create a file with the content "I am the header of your first README.md".
+
+If you want to know about this command, look it up on [ExplainShell](https://explainshell.com).
+
+We are also using a command called a *`redirect`* -- this will use it to put content into a new file.
+
+```bash
+echo 'I am the header of your first README.md' > README.md
+```
+
+You can run `ls -l` to see that the file is there.  As well as see the commands *`more`* and another command called *`less`*.
+
+Use [ExplainShell](https://explainshell.com) to know about these commands, but they show the contents of the file as you might expect.
+
+<img src="/../../img/JupyterLabNotebookTerminalWindowEchoToCreateAREADME.md.png" width = 500>
+
+Now let's create a copy:
 
 ```bash
 cp README.md duplicated_README.md
@@ -99,6 +132,8 @@ Let's inspect the folder exists with our trusted `ls -l` command
 ls -l
 ```
 
+<img src="/../../img/JupyterLabNotebookNewFolderAndContent.png" width=500>
+
 ## 6. Delete a folder
 
 We can delete a folder using the `rm -r` command:
@@ -113,7 +148,7 @@ Let's inspect that the folder is indeed deleted:
 ls -l
 ```
 
-<!-- #region -->
+
 ## 7. Downloading a file using a link
 
 We can retrieve a file using a public link. For example, we have uploaded in a public ZENODO record for this course an example file. The link for the file is: https://zenodo.org/record/4302133/files/deseq2_5k.csv
@@ -131,8 +166,6 @@ wget https://zenodo.org/record/4302133/files/deseq2_5k.csv
 
 So please copy this command and paste it in the terminal window and press return - in preparation for the next section of todays class.  Reading data and plotting a volcano plot.
 
-<!-- #endregion -->
+## Return to Day 1 
 
-```bash
-
-```
+[Return to today's agenda](day-1-reasoning.md)
