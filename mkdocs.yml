@@ -18,6 +18,7 @@ nav:
    - About:
        - Background: about/background.md
        - Attribution:  about/attribution.md
+       - Other topics of interest: about/other-topics-of-interest.md
        - License: about/license.md
        - Making this site: about/how-this-site-was-made.md
 theme:
