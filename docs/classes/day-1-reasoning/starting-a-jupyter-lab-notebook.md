@@ -12,7 +12,9 @@ We are at the login page, please select <img src="/../../img/CAVATICADashboardCr
 
 We need to select three pieces of important inforrmation.
 
-1. Enter a name, here I have used *`Kids-First-Elements-of-Style`* - note you will see in the project URL how it uniquely is identified because it includes *`your user id`*.
+1. Enter a name, here I have used *`Kids-First-INCLUDE-eos`* - note you will see in the project URL how it uniquely is identified because it includes *`your user id`*.
+
+<img src="/../../img/CAVATICACreateAProjectKidsFirstINCLUDEeos.png" width=150">
 
 2. Select the appropriate Billing group.  For this course, give David your userid and you will be added so you can select *`EoS-Include-KidsFirst`*.
 
@@ -26,11 +28,11 @@ We need to select three pieces of important inforrmation.
 
 Next, within this new project, we will start an analysis.  To do this, select *`Data Studio`* and select <img src="/../../img/CAVATICADashboardCreateNewAnalysisButton.png" width=150> to create a new analysis.
 
-Name the analysis, here I used *`Kids-First-INCLUDE-eos`*.  Next select  <img src="/../../img/CAVATICADashboardDataStudioJupyterLabSelection.png" width=150>.
+Name the analysis, here I used *`Kids-First-INCLUDE-eos-analysis`*.  Next select  <img src="/../../img/CAVATICADashboardDataStudioJupyterLabSelection.png" width=150>.
 
 Look over what you have entered 
 
-<img src="/../../img/CAVATICADashboardProjectsStartAJupyterLabNotebook.png" width=650>
+<img src="/../../img/KidsFirstINCLUDEEosAnalysis.png" width=650>
 
 When satisfied that it is correct, press <img src="/../../img/CAVATICADashboardCreateNewAnalysisStartButton.png" width=50>
 
@@ -42,4 +44,4 @@ Upon success, we will see it is starting, lets take a small <img src="/../../img
 
 ## After <img src="/../../img/coffee.png" width=50>  we will begin with the Command Line
 
-[learning a few userful Command-line commands](using-the-command-line.md)
+[Return to Day 1 Agenda](day-1-reasoning.md)

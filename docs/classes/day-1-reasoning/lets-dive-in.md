@@ -18,15 +18,15 @@ If you have not already done so, [please go ahead and create an account on CAVAT
 
 * [Step-by-Step Instructions to log into CAVATICA](logging-into-cavatica-step-by-step.md)
 
-* [Step-by-Step Instructions to create a project and start a JupyterLab Notebook](starting-a-jupyter-lab-notebook.md#starting-a-jupyterlab-notebook)
+* [Step-by-Step Instructions to create a project and start a JupyterLab Notebook](starting-a-jupyter-lab-notebook.md)
 
 While things start to cook -- let me review the Agenda and show a brief presentation
 
-## Additional Resources
+## If not yet registered
 
-At the end of this day, please stay after and register with Kids First
+If you have not already registered with Kids First, INCLUDE and CAVATICA, please stay after today and we will get you caught up.
 
-- [Registering with Kids First](/../pre-training/pre-training-creating-kids-first-and-other-accounts.md)
+- [Registering with Kids First, INCLUDE and other accounts](/../pre-training/pre-training-creating-kids-first-and-other-accounts.md)
 
 ## Return to Day 1 
 

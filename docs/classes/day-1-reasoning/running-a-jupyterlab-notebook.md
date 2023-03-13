@@ -1,13 +1,9 @@
 
-<p>
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/JupyterLabLogoWithName.png"  width="250">
-</p>
-
-# :wave: Welcome back - lets begin with the command line
+<img src="/../../img/JupyterLabLogoWithName.png"  width="250">
 
 To begin, your screen should look like this:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabNotebookStartupScreen.png" width=650>
+<img src="/../../img/CAVATICAJupyterLabNotebookStartupScreen.png" width=650>
 
 This is a [JupyterLab](https://jupyter.org) environment.  Project Jupyter is a non-profit, open-source project, born out of the IPython Project in 2014 as it evolved to support interactive data science and scientific computing across all programming languages. Jupyter will always be 100% open-source software, free for all to use and released under the liberal terms of the modified BSD license. 
 
