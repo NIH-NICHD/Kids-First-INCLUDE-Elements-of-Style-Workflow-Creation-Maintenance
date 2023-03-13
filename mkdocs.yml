@@ -9,11 +9,11 @@ nav:
    - Home: index.md
    - Agenda:
        - Pre-training: classes/pre-training/pre-training.md
-       - Day 1 - Reasoning: classes/command-line/command-line-basics.md
-       - Day 2 - Code versioning: classes/github/github.md
-       - Day 3 - Containerization: classes/containerization/containerization.md
-       - Day 4 - Workflow development: classes/workflow-development/workflow-development.md
-       - Day 5 - Workflow execution: classes/workflow-execution/workflow-execution.md
+       - Day 1 - Reasoning: classes/day-1-reasoning/day-1-reasoning.md
+       - Day 2 - Code versioning: classes/day-2-code-versioning/day-2-code-versioning.md
+       - Day 3 - Containerization: classes/day-3-containerization/day-3-containerization.md
+       - Day 4 - Workflow development: classes/day-4-workflow-development/day-4-workflow-development.md
+       - Day 5 - Workflow execution: classes/day-5-workflow-execution/day-5-workflow-execution.md
  
    - About:
        - Background: about/background.md

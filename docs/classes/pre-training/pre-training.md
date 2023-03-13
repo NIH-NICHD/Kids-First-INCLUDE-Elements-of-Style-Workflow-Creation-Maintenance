@@ -17,7 +17,7 @@
 - [ERA Commons ID](https://www.era.nih.gov/reg-accounts/register-commons.htm)
 - [INCLUDE Data Hub](https://portal.includedcc.org/login?redirect_path=/dashboard)
 - [Kids First Data Resource Portal](https://portal.kidsfirstdrc.org/login)
-- [Cavatica by Seven Bridges](https://cavatica.sbgenomics.com)
+- [Cavatica by Velsera (formerly Seven Bridges)](https://cavatica.sbgenomics.com)
 
 ## Additional Resources:
 - [NIH Kids First Cloud Credit Program Overview](https://github.com/kids-first/kf-cloud-credits#readme)
