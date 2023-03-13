@@ -7,7 +7,7 @@
 | 11.30 - 11.45 | [A few simple rules for easier workflow maintenance and reuse](A-Few-Simple-Rules-Shortened.md)<img src="/../../img/The_Elements_of_Programming_Style.jpg" width="100" align="right">|
 | 11:45 - 12:00 | *[Lets Dive In, Create an Account, Start a JupyterLab Notebook](lets-dive-in.md)* |
 | 12.00 - 12.10 | <img src="/../../img/coffee.png" width="50" align="left"> Short Break |
-| 12.10 - 12.25| [Introduction to the Command-line](https://github.com/NIH-NICHD/Kids-First-INCLUDE-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook/README.md#wave-welcome-back---lets-begin-with-the-command-line) |
+| 12.10 - 12.25| [Introduction to the Command-line](using-the-command-line.md) |
 | 12.25 - 12.50 | [Example Volcano Plot on CAVATICA](https://github.com/NIH-NICHD/Kids-INCLUDE-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook/README.md#open-the-reading-data-and-plotting-in-ripynb)<img src="/../../img/CAVATICALogo.png" width="100" align="right">|
 | 12.50 - 13:00 | <img src="/../../img/raised-hand.png" width="50" align="left"> *Wrap up and overview of next days topics* |
 
