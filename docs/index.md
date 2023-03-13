@@ -20,7 +20,7 @@ In 2018, the [NIH](https://www.nih.gov/) launched [INCLUDE Project](https://www.
 
 Kids First is a trans-NIH Common Fund program whose goal is to help researchers uncover new insights into the biology of childhood cancer and structural birth defects, including the discovery of shared genetic pathways between these disorders.   To achieve this goal, the program has developed the Kids First Data Resource Center, a cloud-based platform which publicly shares genetic and clinical data from 30,000 childhood cancer and structural birth defect patients and families.   Through the [Kids First Data Resource Portal](https://portal.kidsfirstdrc.org/login) researchers have access to analysis tools and collaborative research.
 
-**Both of these platforms are gateways that provide democratizing access to the vast and flexible world of cloud computing, powered by [CAVATICA](https://cavatica.sbgenomics.com) and Velsera (formerly Seven Bridges)**
+**Both of these platforms are gateways that provide democratizing access to the vast and flexible world of cloud computing, powered by [CAVATICA](https://cavatica.sbgenomics.com) and [Velsera](https://velsera.com/) (formerly Seven Bridges)**
 
 **Before you attend the course, you need to set up [GitHub](https://github.com/), [Zenodo](https://zenodo.org/) and [ORCID](https://orcid.org/register) accounts and have basic knowledge of the terminal window, shell environment and the commands for navigation within that environment**
 
