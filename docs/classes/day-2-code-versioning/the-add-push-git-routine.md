@@ -148,14 +148,13 @@ As the repository owner, I can inspect and accept or not accept all the proposed
 Recap
 
 _ You learned about *`Git`* and *`GitHub`*
-_ You synchronized your *`Fork`* of a main repository 
+_ You *`Fork`*ed a repository
+_ You synchronized your *`Fork`* to the main repository 
 - You made a contribution with a *`Pull Request`*
 
-You have entered the world of documenting your work using GitHub -- Congratulations
+You have entered the world of documenting your work using GitHub -- Congratulations!!
 
-## Return to Agenda for Tomorrow
-
-[Environment control with Conda and Containers with Docker](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-the-day-3-containerization-with-environment-control)
+## [Return to Agenda](day-2-code-versioning.md) 
 
 
 

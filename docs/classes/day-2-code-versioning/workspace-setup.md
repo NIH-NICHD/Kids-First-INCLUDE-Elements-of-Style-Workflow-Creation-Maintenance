@@ -47,7 +47,7 @@ More on that later.
 
 Go ahead and hit <img src="/../../img/CAVATICAWorkspaceDataStudioStartButton.png" width=50> and lets get started.
 
-Give us a :thumbsup: in the Zoom chat if all is going ok. 
+Give us a <img src="/../../img/thumbsup.png" width=50> in the Zoom chat if all is going ok. 
 
 <img src="/../../img/CAVATICAWorkspaceDataStudioInstanceStartingPicture.png" width=650>
 
@@ -61,24 +61,6 @@ Lets go back to the lesson and understand a bit about [Why Git and GitHub](why-g
 
 If you were not with us yesterday, please follow these directions to start a notebook.   If you need help, we will help you at the coffee break or reach out to David in the Chat.
 
-## *FAST* Track Create an Account with [CAVATICA](https://cavatica.sbgenomics.com)
-
-If you have not already done so, [please go ahead and create an account on CAVATICA](/../day-1-reasoning/creating-a-cavatica-account.md).   Any difficulties reach out to _David_ or _Jared_ in the Zoom Chat.  We have an hour after each class this week, where we will stay to assist.
-
-## Log in straight to [CAVATICA](https://cavatica.sbgenomics.com)
-
-* [Step-by-Step Instructions to log into CAVATICA](/../classes/day-1-reasoning/logging-into-cavatica-step-by-step.md)
-
-* [Step-by-Step Instructions to create a project and start a JupyterLab Notebook](/../day-1-reasoning/starting-a-jupyter-lab-notebook.md)
-
-While things start to cook -- let me review the Agenda and show a brief presentation
-
-## If not yet registered
-
-If you have not already registered with Kids First, INCLUDE and CAVATICA, please stay after today and we will get you caught up.
-
-- [Registering with Kids First, INCLUDE and other accounts](/../pre-training/pre-training-creating-kids-first-and-other-accounts.md)
-
 ## Continue with our Lesson for Day 2 
 
-[Why Git and GitHub](why-git-and-setup.md)
+[Return to Agenda](day-2-code-versioning.md)

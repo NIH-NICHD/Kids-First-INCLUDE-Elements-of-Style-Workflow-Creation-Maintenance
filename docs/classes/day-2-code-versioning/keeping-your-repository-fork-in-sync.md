@@ -2,6 +2,44 @@
 
 Let's now fork the repository which held the volcano plot yesterday.  [Fork the https://github.com/NIH-NICHD/exampleVolcanoPlotNotebook](https://github.com/NIH-NICHD/exampleVolcanoPlotNotebook) repository now.
 
+### Let's fork the volcano plot repository
+
+_**Step 1**_ Navigate in your browser window to _https://github.com/NIH-NICHD/exampleVolcanoPlotNotebook
+
+<img src="/../../GitHubNIHNICHDexampleVolcanoPlot.png" width=650>
+
+_**Step 2**_ Create a Fork
+
+In the browser on the right of the screen you see,  _Edit Pins_ _Watch_ and then _Fork_ select _Fork_
+Select where you want to fork the repository, your own GitHub repository.
+
+<img src="/../../GitHubNIHNICHDexampleVolcanoPlotCreateAFork.png" width=650>
+
+You will see the progress window that shows the _Forking_ is in progress
+
+<img src="/../../GitHubNIHNICHDexampleVolcanoPlotForkProgress.png" width=650>
+
+Upon success, you will see the following screen
+
+<img src="/../../GitHubNIHNICHDexampleVolcanoPlotForkComplete.png"
+
+## Clone your repository exampleVolcanoPlot.png"
+
+These words _Clone_ _Fork_ _Pull_ are the language of Git and GitHub.   But they mean as follows:
+
+_**Clone**_ - make a working copy of someone elses repository.
+
+_**Fork**_ - make a copy of someone else's repository, but this one I will make edits to and try to make a contribution.
+
+_**Pull**_ - pull a version of the repository
+
+_**Push**_ - push my changes back to the repository.
+
+Yesterday, we cloned a fork of my repository containing the exampleVolcanoPlot.
+
+## Clean up our window so we can work.
+
+
 ### Synchronizing Your Fork
 
 Navigate to your repository within a new *`Chrome browser tab`* on GitHub - https://github/[*`insert your GitHub user name here`*]/exampleVolcanoPlotNotebook.
