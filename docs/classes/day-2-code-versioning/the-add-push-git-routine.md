@@ -2,28 +2,37 @@
 
 In this exercise, we will use the personal forks as the repository where each of us will contribute.
 
-Navigate to your folder named under your GitHub username.
+To do that we are going to make a clone of your version of the repository.
+
+Use the command line tool `mkdir` to make a directory with your user name.
+
+My user name is _adeslatt_
 
 ```bash
-cd <my username>/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/
+mkdir adeslatt
 ```
 
-Type as we did before the break:
+Move into that directory using the command line tool `cd` to `change directory` into your user name
 
 ```bash
-git remote -v
+cd adeslatt
 ```
 
-You should see something like:
+In this case now I am in an empty directory.
+
+Now I am going to clone my forked version of the NIH-NICHD exampleVolcanoPlot repository.
 
 ```bash
-origin  https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance.git (fetch)
-origin  https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance.git (push)
-upstream        https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance (fetch)
-upstream        https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance (push)
+git clone https://github.com/Wellstein-lab/exampleVolcanoPlotNotebook.git
 ```
 
-For this exercise -- we actually want to change this back to the original status.
+Now we need to move into the exampleVolcanoPlotNotebook directory.
+
+```bash
+cd exampleVolcanoPlotNotebook
+```
+
+Type as the following command to see where the upstream location of our file is.
 
 ## A very handy command I use daily *`git status`*
 
@@ -43,31 +52,27 @@ nothing to commit, working tree clean
 ```
 ## Edit a file
 
-We can edit a file inside your folder *`<YOUR GITHUB USERNAME>/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Intro-to-Git-Github/README.md`*
+We can edit a file inside your folder *`README.md`*
 
-Let's use nano and create and edit a README.md file.
+Let's use nano or the notebook interface to edit tje README.md file.
 
 First lets navigate to the directory for this class.
 
 ```bash
-cd <my username>/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Intro-to-Git-Github/
+cd <my username>/exampleVolcanoPlotNotebook
 ```
 
 Next lets edit a file README.md
 
-```bash
-nano README.md
-```
+You can use Nano or you can double click the file on the left and add some lines to the readme.
 
-Add the lines
 
 ```
-# Useful Git Commands
+Learn about Zenodo here: https://zenodo.org
 
-A list of commonly used [Git commands](https://github.com/joshnh/Git-Commands)
 ```
 
-When ready to save the file by using these shortcut keys.
+When ready to save the file by using these shortcut keys. in Nano or just hit x and it will ask you to save.
 
 <kbd> **`CTRL`**  </kbd> `+`  <kbd> **`O`** </kbd>
 
@@ -130,18 +135,18 @@ Now we have the changes in our repository.   We are out of sync potentially with
 
 In the chrome browser, navigate to your repository on GitHub and inspect our local changes.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubContributingInspectingTheBranchAfterMakingLocalChanges.png" width=650>
+<img src="/../../img/GitHubContributingInspectingTheBranchAfterMakingLocalChanges.png" width=650>
 
 First, we synchronize with the main branch, by pressing the *`sync`* button.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubContributingAfterSynchronizingWithMain.png" width=650>
+<img src="/../../img/GitHubContributingAfterSynchronizingWithMain.png" width=650>
 
 Next, we make a pull request, this allows us to offer our changes to the main repository.
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubContributingMakingAPullRequest.png" width=650>
+<img src="/../../img/GitHubContributingMakingAPullRequest.png" width=650>
 
 As the repository owner, I can inspect and accept or not accept all the proposed changes.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubContributingInspectingPullRequestsInMain.png" width=650>
+<img src="/../../img/GitHubContributingInspectingPullRequestsInMain.png" width=650>
 
 ## Conclusion of todays class
 
