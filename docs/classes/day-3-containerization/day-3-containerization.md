@@ -4,8 +4,8 @@
 
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
-| 11.00 - 11.20 | [_Recap on the Volcano Plot and agenda for the day_](recap-workspace-setup.md)  |
-| 11:20 - 12:00 | [Creating a conda environment](creating-a-conda-environment.md)<img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Conda_logo.svg" width="50" align="right"> |
+| 11.00 - 11.30 | [_Recap on the Volcano Plot and agenda for the day_](recap-workspace-setup.md)  |
+| 11:30 - 12:00 | [Creating a conda environment](creating-a-conda-environment.md)<img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Conda_logo.svg" width="50" align="right"> |
 | 12.00 - 12.10 | <img src="/../../img/coffee.png" width=50 align="left"> Short break |
 | 12:10 - 12:50 | [Building Dockerfiles](building-dockerfiles.md)<img src="/../../img/Moby-Logo.png" width="50" align="right">|
 | 12.50 - 13:00 | <img src="/../../img/raised-hand.png" width="50" align="left"> _Wrap up and overview of next days topics_ |
