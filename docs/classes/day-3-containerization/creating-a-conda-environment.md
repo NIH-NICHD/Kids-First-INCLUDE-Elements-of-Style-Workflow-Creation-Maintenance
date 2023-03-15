@@ -259,6 +259,4 @@ We have learned in this lesson
 
 We now move on to build Docker images which we will use in a workflow.
 
-## Return to the Agenda
-
-[Day 3 Agenda](day-3-containerization.md)
+##[Return to the Agenda](day-3-containerization.md)

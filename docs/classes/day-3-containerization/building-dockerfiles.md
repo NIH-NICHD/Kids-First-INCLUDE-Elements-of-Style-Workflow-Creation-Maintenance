@@ -1,12 +1,12 @@
 <p>
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/Moby-Logo.png" width=200>
+<img src="/../../img/Moby-Logo.png" width=200>
 </p>
 <b>
 </b>
 
 # Building Dockerfiles
 
-We have now learned that we can control our environment with [conda](https://conda.io).   If you haven't done that lesson, it would be best for you to go through that lesson before beginning with this step.  The [Conda Lesson](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Creating-A-Conda-Environment/README.md#creating-a-conda-environment) will show you how to create a clean environment.
+We have now learned that we can control our environment with [conda](https://conda.io).   If you haven't done that lesson, it would be best for you to go through that lesson before beginning with this step.  The [Conda Lesson](creating-a-conda-environment.md) will show you how to create a clean environment.
 
 Now we will show how to build an Docker image [Docker](https://www.docker.com/) from a Dockerfile and we will use this in our workflow in three ways:  in a Nextflow workflow script, in a common workflow script and as an Application within CAVATICA.
 
@@ -57,7 +57,7 @@ The `docker` application requires the exact filename `Dockerfile` when creating 
 
 In the google shell editor window this time, open the file named `Dockerfile`
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellDockerFile1.png">
+<img src="/../../img/GoogleShellDockerFile1.png">
 
 Copy the contents of the window below and paste it into your window.
 
@@ -78,7 +78,7 @@ ENV PATH /opt/conda/envs/${ENV_NAME}/bin:$PATH
 
 After pasting in the window, your file should look like this:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellDockerfile2.png">
+<img src="/../../img/GoogleShellDockerfile2.png">
 
 The `docker` application understands the commands `FROM`, `LABEL`, `ARG ENV_NAME`, `COPY`, `RUN` and `ENV PATH`.  
 It also knows that `#` are comments and are for the human reader that is reading this file to understand what is happening within the file itself.
@@ -91,7 +91,7 @@ You will see later that you can `COPY` your own custom scripts for use within th
 
 Notice as well we are prompted to look at our quotas, not an infinite resource but pretty good availability for a free asset.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellQuotaInformation.png">
+<img src="/../../img/GoogleShellQuotaInformation.png">
 
 Now we will inspect our `environment.yml` which is being used by `conda` to install our desired application.
 
@@ -140,7 +140,7 @@ docker build -t fastqc .
 
 Here the google shell asks to authorize it to complete the task.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellDockerFileAuthorize.png">
+<img src="/../../img/GoogleShellDockerFileAuthorize.png">
 
 When it completes, we can verify that the image has been created listing all available images with the following command:
 
@@ -197,7 +197,7 @@ touch README.md
 
 Open with the Code Editor (the Markdown Editor is experimental).  To do so, hover over the *`README.md`* file and click *`Open With...`* and select *`Code Editor`*.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellSelectCodeEditor.png">
+<img src="/../../img/GoogleShellSelectCodeEditor.png">
 
 Copy the contents here that explain what we have in this repository
 
@@ -237,7 +237,7 @@ Now edit the file (I added the *`\`* so Markdown would ignore the data but it me
 
 Please remove all the *`\`*'s the file will look like this:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellFastqcREADMEfile.png" width=650>
+<img src="/../../img/GoogleShellFastqcREADMEfile.png" width=650>
 
 
 ### Use *`GitHub`* Command line tool *`gh`* to authenticate before we push create our repository.
@@ -421,7 +421,7 @@ touch README.md
 
 Open with the Code Editor (the Markdown Editor is experimental).  To do so, hover over the *`README.md`* file and click *`Open With...`* and select *`Code Editor`*.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellSelectCodeEditor.png">
+<img src="/../../img/GoogleShellSelectCodeEditor.png">
 
 
 ```bash
@@ -462,7 +462,7 @@ Please remove all the *`\`*'s the file will look like this:
 
 After pasting in the window, your file should look like this:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellMultiqcDockerfile.png" width=650>
+<img src="/../../img/GoogleShellMultiqcDockerfile.png" width=650>
 
 We now type
 
@@ -526,9 +526,7 @@ Upon success your repository will be in place on your GitHub.
 
 Tomorrow, we will make our first workflow and show how to use these containers within our private repository on CAVATICA
 
-## Return to the Agenda
-
-[Day 3 Agenda](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-the-day-3-containerization-with-environment-control)
+[Return to the Agenda](day-3-containerization.md)
 
 
 
