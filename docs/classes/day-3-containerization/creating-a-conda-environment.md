@@ -1,20 +1,31 @@
 # Creating a `Conda` Environment
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Conda_logo.svg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Conda_logo.svg" width=500>
 
 
 ## What is [conda](https://docs.conda.io/en/latest/)
 
-Conda is an application that we use to control our environment and manage our package installations.  We will work today within a terminal window and the first thing I like to do is to make a clean environment window.   This ensures that all of the assumptions we made about our environment are clear and explicit.  Without this you may inadvertantly introduce dependicies that may complicate your building of your container and/or stitching together your workflow.   When we build our container, we begin many of times using the conda environment made by the group that builds conda as a basis.  This then does give us the application conda within our environment for our use like docker is available in our google shell now.
+Conda is an application that we use to control our environment and manage our package installations.
+
+We will work today within a terminal window and the first thing I like to do is to make a clean environment window.   This ensures that all of the assumptions we made about our environment are clear and explicit.  Without this you may inadvertantly introduce dependicies that may complicate your building of your container and/or stitching together your workflow.
+
+When we build our container, we begin many of times using the conda environment made by the group that builds conda as a basis.  This then does give us the application conda within our environment for our use like docker.
+
+Today we will be using a terminal window within a free resource, [Google Shell](https://shell.cloud.google.com/)
 
 We will walk through those steps today with our simple example.   
 
 ## [Anaconda](https://anaconda.org/) Search Packages
 
-<img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/AnacondaMainWindow1.png">
+<img src="/../../img/AnacondaMainWindow1.png">
 
-I regularly type this in my browser window to find the packages I need to install.  
-Anaconda environment is growing by leaps and bounds and there are more things that can be done there that I have yet to explore.   In addition to well vetted packages that can be installed, this large community resource provides tutorials, data science instructions as well as whole environments where you can work, explore and learn.   For example, today we already showed you how to run a jupyterlab notebook, but you want to know more.  Their site offers instruction on [Jupyterlab basics](https://anaconda.org/ijstokes/open-data-science-with-anaconda/notebook) for you to explore.
+I regularly type this in my browser window to find the packages I need to install.
+
+Anaconda environment is growing by leaps and bounds and there are more things that can be done there that I have yet to explore.
+
+In addition to well vetted packages that can be installed, this large community resource provides tutorials, data science instructions as well as whole environments where you can work, explore and learn.
+
+For example, today we already showed you how to run a jupyterlab notebook, but you want to know more.  Their site offers instruction on [Jupyterlab basics](https://anaconda.org/ijstokes/open-data-science-with-anaconda/notebook) for you to explore.
 
 ## Logging into Google Shell
 
@@ -26,7 +37,7 @@ It will ask you to login, please follow the prompts and do so.
 
 Upon success you will see a window like this:
 
-<img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleCloudShell1.png">
+<img src="/../../img/GoogleCloudShell1.png">
 
 We have an editor as well as a prompt.
 
@@ -35,6 +46,7 @@ If you have items in your Google Shell, you may need to clean up a bit.  There i
 ### Cleaning up your space
 
 If you have items in your directory, lets clean up!  So we have enough room for the next few lessons.   Let's see what is there.
+
 For a shell to list the contents of a directory, you type:
 
 ```bash
@@ -57,7 +69,7 @@ We need to get the installation package for conda.  We get this package from con
 
 Navigating to that location you will see details here:
 
-<img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/AnacondaMiniconda2.png">
+<img src="/../../img/AnacondaMiniconda2.png">
 
 Which installation do we need?  Typing `uname -a` will tell us the information about our operating system and hardware basics.
 
@@ -71,7 +83,7 @@ Scroll down the window and hover your cursor over the `Miniconda Linux 64-bit` (
 
 Right click and select `copy link address`.   This gives you the unique resource locator (url) for the installation script we will be downloading onto the machine we are talking to with our `google cloud shell` window.
 
-<img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/AnacondaMiniconda3.png">
+<img src="/../../img/AnacondaMiniconda3.png">
 
 Now we will use the routine `wget` to copy this installation script.   To make sure we can do this, let's make sure that we have the tool available.   To do that, we type:
 
@@ -83,7 +95,6 @@ In my case, it returns the full path `/usr/bin/wget`.   If you do not have `wget
 
 Now to install Miniconda, so that we can use `conda` to install any and all packages we need we do as follows:
 
-
 ```bash
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ```
@@ -94,7 +105,7 @@ If you haven't changed directories, you can see now that this package `Miniconda
 pwd
 ```
 
-<img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellWindow2.png">
+<img src="/../../img/GoogleShellWindow2.png">
 
 For my execution, it returns `/home/ad376`.
 
@@ -250,4 +261,4 @@ We now move on to build Docker images which we will use in a workflow.
 
 ## Return to the Agenda
 
-[Day 3 Agenda](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-the-day-3-containerization-with-environment-control)
+[Day 3 Agenda](day-3-containerization.md)
