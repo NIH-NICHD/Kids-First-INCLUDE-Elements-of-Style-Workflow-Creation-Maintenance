@@ -5,13 +5,12 @@
 
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
-| 11.00 - 11.30 | [_Welcome and Preamble to Building our Workflow_](preamble-to-building-a-workflows-using-containers.md |
-| 11:10 - 12.00 | [Building A Nextflow Script](
-https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md#contents)<img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width="150" align="right"> 
-| 12.00 - 12.10 |:coffee: Short break |
-| 12:10 - 12:40 | [Building A CWL Script](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/tree/main/classes/Building-A-CWL-Script#building-a-common-workflow-language-cwl-workflow)<img src="https://github.com/common-workflow-language/logo/blob/main/CWL-Logo-HD.png" width="150" align="right">|
-| 12.40 - 11.50 | [Shared elements across workflow languages](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/NextflowSharedDataElements/NextflowCommonWorkFlowLanguageSharedStructureSharedElements.md)<img src="https://github.com/common-workflow-language/logo/blob/main/CWL-Logo-HD.png" width="150"><img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width=150 align="right">|
-| 12.50 - 13:00 | :raised_hand: *Wrap up and overview of next days topics* |
+| 11.00 - 11.30 | [_Welcome and Preamble to Building our Workflow_](preamble-to-building-a-workflows-using-containers.md) |
+| 11:10 - 12.00 | [Building A Nextflow Script](building-a-nextflow-workflow.md)<img src="/../../img/NextflowLogo.png" width="100" align="right"> |
+| 12.00 - 12.10 | <img src="/../../img/coffee.png" width=50> Short break |
+| 12:10 - 12:40 | [Building A CWL Script](building-a-cwl-workflow.md)<img src="/../../img/CWLlogo.png" width="100" align="right"> |
+| 12.40 - 11.50 | [Shared elements across workflow languages](NextflowCommonWorkFlowLanguageSharedStructureSharedElements.md)<img src="/../../img/NextflowLogo.png" width="100" align="right"><img src="/../../img/CWLlogo.png" width="100" align="right"> |
+| 12.50 - 13:00 | <img src="/../../img/raised-hand.png" width=50> _Wrap up and overview of next days topics_ |
 
 ## Additional Resources
 
