@@ -138,14 +138,14 @@ To authenticate we need a developers token.
 ##  Login to CAVATICA and Generate Authentication Token
 
 Navigate to the Developers Tab
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADevelopersRegistryToken.png" >
+<img src="/../../img/CAVATICADevelopersRegistryToken.png" >
 
 Select *`Authentication Token`* and Press *`Generate Authentication Token`*
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADevelopersGenerateAuthenticationToken.png" >
+<img src="/../../img/CAVATICADevelopersGenerateAuthenticationToken.png" >
 
 Have a look at your repository, you will see that it is empty.
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADevelopersRepository.png" >
+<img src="/../../img/AVATICADevelopersRepository.png" >
 
 Now copy your authentication token.
 
@@ -172,7 +172,7 @@ v0.11.9: digest: sha256:400e075f2ba7c94f6982caa3a43bd90d1857ecde457bf4a26a4ab9b9
 ```
 
 Now we can inspect our repository on CAVATICA and we see:
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADevelopersRepositoryFastqc.png" >
+<img src="/../../img/CAVATICADevelopersRepositoryFastqc.png" >
 
 Now we actually can properly build and tag from the getgo our other image, for multiqc.
 
@@ -199,7 +199,7 @@ docker push pgc-images.sbgenomics.com/adeslat/multiqc:v1.0dev0
 ```
 
 And now when we inspect our repository, we have:
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADevelopersRepositoryMultiqc.png" >
+<img src="/../../img/CAVATICADevelopersRepositoryMultiqc.png" >
 
 Now we can proceed with our workflow development!
 

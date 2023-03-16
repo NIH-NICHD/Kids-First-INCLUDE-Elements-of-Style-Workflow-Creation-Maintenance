@@ -96,33 +96,17 @@ cd adeslatt
 And clone
 
 ```bash
-git clone https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance.git
+git clone https://github.com/NIH-NICHD/Building-A-Nextflow-Script.git
 ```
 
-Now navigate to our lesson
+### b) Parameters (otherwise known as inputs)
 
-```bash
-cd Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-Nextflow-Script/
-```
+Now that we have Nextflow & Docker installed we're ready to run our first script and learn how we bring in data into a file.
 
+Let's open the file `params_reads.nf`
 
-### b) Parameters
+You see the following content:
 
-Now that we have Nextflow & Docker installed we're ready to run our first script
-
-Normally, you begin by creating a file, for our lesson we are going to use a file that has already been created on your behalf.   We will go through this file and understand its content.
-
-But in general these files are edited with your favorite your favourite code/text editor eg nano, VSCode, vim or emacs
-
-Inspect the file `params_reads.nf`
-
-Typing 
-
-```bash
-less params_reads.nf
-```
-
-You see the contents of the file is as follows:
 ```nextflow
 // params_reads.nf
 params.reads = false
@@ -130,20 +114,29 @@ params.reads = false
 println "My reads: ${params.reads}"
 ```
 
-The first line initialises a new variable (`params.reads`) & sets it to `false`
-The second line prints the value of this variable on execution of the pipeline.
+The first line is a comment.  Comments in Nextflow can begin with `//`.   Every language has a different way of indicating that this is for the human to read and not the machine.   This comment may seem silly, but when you have many files open, it is uesful to have an indication of where you are.
 
-We can now run this script & set the value of `params.reads` to one of our FASTQ files in the testdata folder with the following command:
+The second line creates something for the computer.  Think of it as an empty vessel.  We can call it what we want, but in this case we are actually going to use something that our program, `nextflow` understands, `params` and create an arbitrary term _reads_ Together they make what you could imagine is an element of a paragraph.  You can define many things that are of a `params` type, but for now we are just creating one thing.  Something we are calling `reads`.
+
+Finally we are setting this `params.reads` to `false`.
+
+The third line instructs the program `nextflow` to print out the value of this `parameter` upon execution of the workflow.
+
+This minimal workflow can now be executed by the `nextflow` application we have installed.
+
+We will do this and we will provide the workflow a value to `params.reads`.
+
+In this repository are two `fastq` files in a `directory` within the freshly checked out repository as follows.
+
 ```bash
 nextflow run params_reads.nf --reads testdata/test.20k_reads_1.fastq.gz
 ```
 
 The run returns the name of our file.
 
-#### Recap
-Here we learnt how to define parameters & pass command line arguments to them in Nextflow
-
 ### c) Processes (inputs, outputs & scripts)
+
+Well, we have run our first `nextflow` workflow, congratulations!.
 
 Nextflow allows the execution of any command or user script by using a `process` definition. 
 
@@ -152,7 +145,7 @@ the process [inputs](https://www.nextflow.io/docs/latest/process.html#inputs),
 the process [outputs](https://www.nextflow.io/docs/latest/process.html#outputs)
 and finally the command [script](https://www.nextflow.io/docs/latest/process.html#script).
 
-Let's look at the next script, `fastqc.nf`, we see the following:
+Let's look at the next workflow, `fastqc.nf`, we see the following:
 ```nextflow
 //fastqc.nf
 reads = file(params.reads)
@@ -184,14 +177,12 @@ We can then create the process `fastqc` including:
  - the [output](https://www.nextflow.io/docs/latest/process.html#outputs) which is anything ending in `_fastqc.zip` or `_fastqc.html` which will go into a `fastqc_results` channel
  - the [script](https://www.nextflow.io/docs/latest/process.html#script) where we are running the `fastqc` command on our `reads` variable
 
-We can then run our script with either the following command:
+We can then run our workflow with the following command:
 ```bash
 nextflow run fastqc.nf --reads testdata/test.20k_reads_1.fastq.gz -with-docker fastqc
 ```
 
-or as we noted 
-
-We are using the image I had pushed to the Seven Bridges Image repository -- in the next session I will walk through how that is done.
+We are using a docker image I previously had pushed to the Seven Bridges Image repository -- in the next session I will walk through how that is done.
 
 By running Nextflow using the `with-docker` flag we can specify a Docker container to execute this command in. This is beneficial because it means we do not need to have `fastqc` installed locally on our laptop. We just need to specify a Docker container that has `fastqc` installed.
 
@@ -240,9 +231,6 @@ To run the pipeline:
 ```bash
 nextflow run fastqc.nf --reads "testdata/test.20k_reads_{1,2}.fastq.gz" -with-docker pgc-images.sbgenomics.com/adeslat/fastqc:v0.11.9
 ```
-
-#### Recap
-Here we learnt how use to the [`fromFilePairs`](https://www.nextflow.io/docs/latest/channel.html#fromfilepairs) method to generate a channel for our input data.
 
 ### e) Operators
 
@@ -298,9 +286,6 @@ The pipeline can be run with the following:
 nextflow run fastqc_multiqc_wf.nf --reads "testdata/test.20k_reads_{1,2}.fastq.gz" -with-docker pgc-images.sbgenomics.com/deslattesmaysa2/fastqc:v1.0
 ```
 
-#### Recap
-Here we learnt how to use operators such as `collect` & connect processes via channels
-
 ### f) Configuration
 
 Configuration, such as parameters, containers & resources eg memory can be set in `config` files such as [`nextflow.config`](https://www.nextflow.io/docs/latest/config.html#configuration-file).
@@ -334,4 +319,4 @@ nextflow run fastqc_multiqc_wf.nf --reads "testdata/test.20k_reads_{1,2}.fastq.g
 
 ## Proceed to the next lesson
 
-[Building-A-CWL-Script](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/tree/main/classes/Building-A-CWL-Script#readme)
+[Return to the Agenda](day-4-workflow-development.md)

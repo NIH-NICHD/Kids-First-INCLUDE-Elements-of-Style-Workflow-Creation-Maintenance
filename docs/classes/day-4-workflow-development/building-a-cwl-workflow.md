@@ -2,19 +2,17 @@
 
 Here we now show how the same containers may be used in a CWL workflow.  
 
-If you are starting here and haven't Forked this repository into your own *`GitHub` Repository, please [Fork this repository](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook/README.md#fork-the-github-repository)
+If you are starting here and haven't Forked this repository into your own *`GitHub` Repository, please [Fork this repository](https://github.com/NIH-NICHD/Building-A-CWL-Script)
 
-If you have your personal *`GitHub Fork`* of this repository, then be sure to [*`Synchronize`*](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Intro-to-Git-Github/why-git-and-setup.md#synchronizing-your-fork) as changes may have been made.
+If you have your personal *`GitHub Fork`* of this repository, then be sure to as changes may have been made.
 
-If you are here with a *`Synchcronized`* *`GitHub Fork`* of this lesson and haven't completed the previous lessons, start with the [Preamble to building Workflows](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md#preamble-to-building-workflows-using-containers) before proceeding.  
+Now please `git clone` your personal fork of the repository for this lesson.
 
-The next steps assume you have checked out a *`Synchronized`* *`Fork`* of this course, and it will be challenging for you to follow.  
-
+```bash
+git clone https://github.com/NIH-NICHD/Building-A-CWL-Script.git
+```
 
 ## Showing the CWL workflow with the same containers
-
-Assuming you have checked out your own *`GitHub Fork`* of this repository, navigate now to the directory.
-Previously, we suggested you name your top level directory your *`GitHub`* *`username`*.
 
 If you are at the *`root`* directory of the *`shell`*, then change directory into the directory for this class.
 
@@ -27,7 +25,7 @@ cd adeslatt
 
 Now Navigate to this class
 ```bash
-cd Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-CWL-Script
+cd Building-A-CWL-Script
 ```
 
 Create and activate your environment, if you have not already done so.
@@ -136,7 +134,7 @@ We see *`inputs:`* and we see *`outputs`.  We also see that there is a *`dockerP
 
 ```bash
   dockerPull: 'pgc-images.sbgenomics.com/deslattesmaysa2/fastqc:v1.0'
- ```
+```
   
 Which references the identical container that was used with Nextflow.  Before we can pull from the docker image stored on CAVATICA, we have to authenticate.
 
@@ -154,19 +152,19 @@ Both methods use the *`CAVATICA`*'s developer's authentication token.
   
 
 If you navigate to *`CAVATICA`* to your *`project`*, for me it was the *`elements-of-style`* project.
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAElements-of-StyleDashboard.png">
+<img src="/../../img/CAVATICAElements-of-StyleDashboard.png">
   
 Then navigate to the *`CAVATICA`* Docker registry under the *`Developer`* tab.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADockerRegistry.png">
+<img src="/../../img/CAVATICADockerRegistry.png">
 
 Selecting the one of the containers of interest, *`fastqc`*, you can see more detail with the container:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAFastqcDockerDetail.png">
+<img src="/../../img/CAVATICAFastqcDockerDetail.png">
 
 Further, you can see, that *`CAVATICA`* has conveniently placed the necessary commands to facilitate *`login`*, *`push`* and *`pull`*.
   
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAFastqcDockerCommands.png">
+<img src="/../../img/CAVATICAFastqcDockerCommands.png">
 
 ### Authenticate with command line login
 
@@ -222,11 +220,11 @@ In the same way that we installed `nextflow`, we can install `cwltool`.
 
 To find the exact command, I typically google `anaconda search packages` and arrive here:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/AnacondaSearchPackages_cwltool1.png">
+<img src="/../../img/AnacondaSearchPackages_cwltool1.png">
 
 Next, I get the information on how to install:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/AnacondaSearchPackages_cwltool2.png">
+<img src="/../../img/AnacondaSearchPackages_cwltool2.png">
 
 To run the pipeline:
 ```bash
@@ -475,4 +473,4 @@ In this last step, we executed the combined workflow which was done quite simply
 
 ## Return to today's (Day 4) Agenda
 
-[Day 4 Elements of Style](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-the-day-4-workflow-development)
+[Return to the Agenda](day-4-workflow-development.md)

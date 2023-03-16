@@ -30,4 +30,4 @@ The Common Workflow language has the same structure as nextflow:
 
 ## Return to the Agenda
 
-[Main Agenda](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance#readme)
+[Return to the Agenda](day-4-workflow-development.md)
