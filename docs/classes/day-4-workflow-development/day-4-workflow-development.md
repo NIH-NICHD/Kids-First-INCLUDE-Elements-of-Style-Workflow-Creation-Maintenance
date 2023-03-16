@@ -5,7 +5,7 @@
 
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
-| 11.00 - 11.30 | [_Welcome and Preamble to Building our Workflow_](preamble-to-building-a-workflows-using-containers.md) |
+| 11.00 - 11.30 | [_Welcome and Preamble to Building our Workflow_](preamble.md) |
 | 11:10 - 12.00 | [Building A Nextflow Script](building-a-nextflow-workflow.md)<img src="/../../img/NextflowLogo.png" width="100" align="right"> |
 | 12.00 - 12.10 | <img src="/../../img/coffee.png" width=50> Short break |
 | 12:10 - 12:40 | [Building A CWL Script](building-a-cwl-workflow.md)<img src="/../../img/CWLlogo.png" width="100" align="right"> |

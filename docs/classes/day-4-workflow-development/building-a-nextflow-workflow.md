@@ -1,7 +1,7 @@
 
 ## Building A Nextflow Workflow
 
-If you have arrived here from the front page and have not built your *`fastqc-docker`* and *`multiqc-docker`* containers, please proceed to the [preamble to building a Nextflow Workflow](preamble-to-building-a-workflow-using-containers.md)
+If you have arrived here from the front page and have not built your *`fastqc-docker`* and *`multiqc-docker`* containers, please proceed to the [preamble to building a Nextflow Workflow](preamble.md)
 
 **Main outcome:** 
 
