@@ -24,7 +24,7 @@ You are then in an environment where you can see a number of things including `p
 
 As in all things these days, to push or at times use (if your application is private) applications you have in the repository - you will need to authenticate with your personal authentication token.  You should not share your token with others.
 
-If you haven't generated your own authentication token, you can see how it is done here with the instructions [Authenticating on Cavatica](authenticationg-on-cavatica.md)
+If you haven't generated your own authentication token, you can see how it is done here with the instructions [Authenticating on Cavatica](authenticating-on-cavatica.md)
 
 ## Using Public Apps to your Project
 
@@ -34,21 +34,21 @@ After you login to *`CAVATICA`*, you can *`Browse`* the public apps.  At the tim
 
 You can browse to find the app you are interested in.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICABrowsePublicApps.png">
+<img src="/../../img/CAVATICABrowsePublicApps.png">
 
 And you can *`search`*, let's search for the *`Fastqc Analysis`* application.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICASearchPublicApps.png">
+<img src="/../../img/CAVATICASearchPublicApps.png">
 
 And you can run this application (note that I have selected the *`workflow`* and not just a single *`application`*:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICARunPublicApps.png">
+<img src="/../../img/CAVATICARunPublicApps.png">
 
 Once *`Run`* is selected, you will be prompted to specify your project:
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICARunPublicAppSelectProject.png">
+<img src="/../../img/CAVATICARunPublicAppSelectProject.png">
 
 Next, you see that you need to provide *`files`* for the application.
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICARunPublicAppSelectFiles.png">
+<img src="/../../img/CAVATICARunPublicAppSelectFiles.png">
 
 Let's see how to get files into your project.
 
@@ -56,9 +56,9 @@ Let's see how to get files into your project.
 
 There are many ways to get files into your project, while you are developing your workflows or doing analysis, it is useful to have test data.
 
-As I mentioned, I use Zenodo for testdata, derivative data products, that is matrices, that are typical for input to interactive analysis as we demonstrated on [day 1 with the JupyterLab Notebook and the Volcano plot](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook/README.md#open-the-reading-data-and-plotting-in-ripynb)
+As I mentioned, I use Zenodo for testdata, derivative data products, often in the form of matrices, that are typical for input to interactive analysis as we demonstrated with our volcano plot.
 
-And also derivative data products such as what was done for the analysis work, [The Impact of Biological Sex on Alternative Splicing](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.biorxiv.org/content/10.1101/490904v2.full.pdf).  In this case, a Nextflow [rMATS workflow](https://github.com/lifebit-ai/rmats-nf/#rmats-nf) was run on controlled access data, the GTEx data, and these aggregate matrices were made and released on [Zenodo](https://zenodo.org/record/5524975#.YwjTSexKja4) and were input to all the [downstream analyses whose notebooks are on GitHub](https://github.com/TheJacksonLaboratory/sbas#the-impact-of-sex-on-alternative-splicing)
+And also derivative data products such as what was done for the analysis work, [The Impact of Biological Sex on Alternative Splicing](https://www.biorxiv.org/content/10.1101/490904v2.full.pdf).  In this case, a Nextflow [rMATS workflow](https://github.com/lifebit-ai/rmats-nf/#rmats-nf) was run on controlled access data, the GTEx data, and these aggregate matrices were made and released on [Zenodo](https://zenodo.org/record/5524975#.YwjTSexKja4) and were input to all the [downstream analyses whose notebooks are on GitHub](https://github.com/TheJacksonLaboratory/sbas#the-impact-of-sex-on-alternative-splicing)
 
 To work with Apps on Cavatica, you need to make your files available to us.
 
@@ -74,16 +74,16 @@ By getting into the habit of daily saving your work on GitHub, and saving those 
 
 Navigate to *`Files`* and select *`Add Files`*
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAddFiles.png">
+<img src="/../../img/CAVATICAAddFiles.png">
 
 Select *`FTP/HTTP`*
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAddFilesHttpFtp.png">
+<img src="/../../img/CAVATICAAddFilesHttpFtp.png">
 
 In your browser, navigate to the Zenodo site
 ```
 https://doi.org/10.5281/zenodo.7025773
 ```
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/ZenodoDryBenchSkillsSite.png">
+<img src="/../../img/https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/ZenodoDryBenchSkillsSite.png">
 
 Where our testdata files now reside.
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/ZenodoDryBenchSkillsSiteTestData.png">
@@ -111,54 +111,45 @@ https://zenodo.org/record/7025773/files/test.20k_reads_2.fastq.gz
 ```
 
 And your screen should look like this:
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAddFilesTestdataReads1_2.png">
+<img src="/../../img/CAVATICAAddFilesTestdataReads1_2.png">
 
 Press Done and you will see that now your files are there.
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAddFilesSuccess.png">
+<img src="/../../img/CAVATICAAddFilesSuccess.png">
 
 ## Running the App
 
 Now we have our app in our project, and we have our files -- now we can run the app.
 
 Navigate back to our app, select the copy we have made.
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICASelectApp.png">
+<img src="/../../img/CAVATICASelectApp.png">
 
 Select run
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAppSelectRun.png">
+<img src="/../../img/CAVATICAAppSelectRun.png">
 
 It says we need files.
 
 Now we need to Select our files
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICASelectAppSelectFiles.png">
+<img src="/../../img/CAVATICASelectAppSelectFiles.png">
 
 Now we select run and we see that it is executing.
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICASelectAppRun.png">
+<img src="/../../img/CAVATICASelectAppRun.png">
 
 You will see that machines are initializing
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAppMachineInitialization.png">
+<img src="/../../img/CAVATICAAppMachineInitialization.png">
 
 App Completion
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAppCompletion.png">
+<img src="/../../img/CAVATICAAppCompletion.png">
 
 
 Then the analysis was run and we can view the resulting files in the same way that you can view the results of the execution example ran on the Google Shell Cloud -- but we are in a workspace now where we can have a large number of machines running in parallel.   There are limits of course, and depending upon the analysis these limits can be discussed -- because the important things is to get the Science done properly and efficiently.
 
 
-## Adding your own containers
+## [Return to the Agenda](day-5-workflow-execution.md)
 
-We showed in previous steps how to [build your own Docker Images and push them onto CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md#build-your-fastqc-docker-image)
-
-
-## Return to the Agenda
-
-[Main Agenda](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#readme)
-
-
-<p>
 
 ## Additional resources:
 
-- CAVATICA documentation for the Apps interface: https://docs.cavatica.org/docs/public-apps
+- [CAVATICA documentation for the Apps interface:](https://docs.cavatica.org/docs/public-apps)
 
-- CAVATICA documentation for Docker Basics: http://docs.cavatica.org/docs/docker-basics
- </p>
+- [CAVATICA documentation for Docker Basics:](http://docs.cavatica.org/docs/docker-basics)
+
