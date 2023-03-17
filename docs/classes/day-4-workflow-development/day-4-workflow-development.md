@@ -14,11 +14,12 @@
 
 ## Additional Resources
 
-- [Nextflow](https://www.nextflow.io/)
-- [Nextflow Basic pipeline](https://www.nextflow.io/example1.html) with detail description of the file 
-- [Nextflow Mixing Programming Languages In The Workflow](https://www.nextflow.io/example2.html)
-- [Nextflow Blast Example](https://www.nextflow.io/example3.html)
-- [Nextflow Community Based Pipelines](https://nf-co.re/pipelines)
+- [Authenticating on Cavatica](authenticating-on-cavatica.md)
 - [Common Workflow Language](https://www.commonwl.org/)
 - [Common Workflow Langage How-to](https://tobyhodges.github.io/user_guide/aio/)
+- [Nextflow](https://www.nextflow.io/)
+- [Nextflow Basic pipeline](https://www.nextflow.io/example1.html) with detail description of the file 
+- [Nextflow Blast Example](https://www.nextflow.io/example3.html)
+- [Nextflow Community Based Pipelines](https://nf-co.re/pipelines)
+- [Nextflow Mixing Programming Languages In The Workflow](https://www.nextflow.io/example2.html)
 

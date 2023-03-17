@@ -14,14 +14,6 @@ git clone https://github.com/NIH-NICHD/Building-A-CWL-Script.git
 
 ## Showing the CWL workflow with the same containers
 
-If you are at the *`root`* directory of the *`shell`*, then change directory into the directory for this class.
-
-First change directory to your user name, if you haven't already made it, then make the directory and then change into it.
-
-```bash
-mkdir adeslatt
-cd adeslatt
-```
 
 Now Navigate to this class
 ```bash
@@ -144,75 +136,8 @@ While I will not go into much more detail, I will emphasize that the `cwl` scrip
 
 We can also inspect the `multiqc.cwl` file in that way or in the editor.
 
-## Authenticating with CAVATICA
-  
-You can authenticate in two ways, you can use a *`credential`* file that the *`CAVATICA`* application recognizes or you can do command line login.
-  
-Both methods use the *`CAVATICA`*'s developer's authentication token.
-  
 
-If you navigate to *`CAVATICA`* to your *`project`*, for me it was the *`elements-of-style`* project.
-<img src="/../../img/CAVATICAElements-of-StyleDashboard.png">
-  
-Then navigate to the *`CAVATICA`* Docker registry under the *`Developer`* tab.
 
-<img src="/../../img/CAVATICADockerRegistry.png">
-
-Selecting the one of the containers of interest, *`fastqc`*, you can see more detail with the container:
-
-<img src="/../../img/CAVATICAFastqcDockerDetail.png">
-
-Further, you can see, that *`CAVATICA`* has conveniently placed the necessary commands to facilitate *`login`*, *`push`* and *`pull`*.
-  
-<img src="/../../img/CAVATICAFastqcDockerCommands.png">
-
-### Authenticate with command line login
-
-Let's copy the *`login`* command and paste it in our *`google shell window`*.
-  
-```bash
-docker login pgc-images.sbgenomics.com -u <USERNAME> -p <YOUR-AUTH-TOKEN>
-``` 
-
-Replace the *`<USERNAME>`* with your *`username`* and the *`<YOUR-AUTH-TOKEN>`* with your *`authentication token`*.
-  
-### Authenticate with a CAVATICA credential file.
-  
-Alternatively you create your credentials in a credential file.
-  
-To do this at the *`root`* directory, you can type the command *`push ~`* to navigate to the root directory.
-
-A fun pair of commands for navigation in a shell are *`pushd`* and *`popd`*.  [Wikipedia actually has a nice page to explain these two commands for faster navigation](https://en.wikipedia.org/wiki/Pushd_and_popd).  Think of pushing your commands on a stack and popping them off to return where you are.
-
-Let's *`pushd`* to our root directory
-  
-```bash
-pushd ~/
-```
-  
-Now make a directory for *`CAVATICA`* to find your credentials
-
-```bash
-mkdir .sevenbridges
-```
-You are creating a subdirectory that is a *`hidden`* directory by typing *`mkdir .sevenbridges`*, which you can now navigate to.
-
-```bash
-cd .sevenbridges
-```
-
-you can use *`touch`* to create your credentials file.
-  
-```bash
-[cavatica]
-api_endpoint = https://cavatica-api.sbgenomics.com/v2
-auth_token = <paste your AUTHENTICATION TOKEN here>
-```
-
-Now to get back to where we started type
-```bash
-popd
-```
 
 ### Installing cwltool
 
@@ -300,12 +225,12 @@ We can inspect the output file in the same manner we inspected the *`fastqc`* ou
 
 Navigate to the appropriate directory in the *`Cloud Editor`* window, right click on the file *`report.multiqc.html`* and select *`preview`* and review the output, which is the aggregated report of the quality of both of the *`fastq`* files.
 
-### recap
+### _recap_
 
-We saw how to
-* install cwltool
-* authenticated to our own *`CAVATICA`* docker registry
-* run and test fastqc and multiqc separately using the CWL language but calling the same exact docker image as we did with the Nextflow language.
+We saw how to:
+
+- install cwltool
+-  run and test fastqc and multiqc separately using the CWL language but calling the same exact docker image as we did with the Nextflow language.
 
 ## Stitching together the two processes into a single workflow
 
@@ -414,10 +339,10 @@ inputs:
   fastqc_outdir: { type: 'string?', default: "results" }
 ```
 
-here this does not provide documentation (but could), but tels us that the file type is a `string` and it provides a default name `results` which we have used in our use of the file.   Theoretically we could specify another name, lets say we wanted to do so, lets call it `--fastqc_outdir 2022mar31_results`, to test our assumptions.
+here this does not provide documentation (but could), but tels us that the file type is a `string` and it provides a default name `results` which we have used in our use of the file.   Theoretically we could specify another name, lets say we wanted to do so, lets call it `--fastqc_outdir 2023mar17_results`, to test our assumptions.
 
 ```bash
-cwltool fastqc_multiqc_wf.cwl --input_reads test.20k_reads_1.fastq.gz --input_reads test.20k_reads_2.fastq.gz --fastqc_outdir 2022mar31_results
+cwltool fastqc_multiqc_wf.cwl --input_reads test.20k_reads_1.fastq.gz --input_reads test.20k_reads_2.fastq.gz --fastqc_outdir 2023mar17_results
 ```
 
 If we are correct, then we will now have a new directory `fastqc_outdir`, and we do!
