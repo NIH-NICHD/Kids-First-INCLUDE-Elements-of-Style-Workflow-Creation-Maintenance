@@ -2,7 +2,7 @@ site_name: Kids First & INCLUDE Elements of Style
 site_description: A course to provide literacy and guides for platform agnostic development for Bioinformatics
 site_author: Anne Deslattes Mays, PhD
 
-site_url: https://nih-nichd.github.io/eos/
+site_url: /eos
 
 repo_url: https://github.com/NIH-NICHD/Kids-First-INCLUDE-Elements-of-Style-Workflow-Creation-Maintenance
 
