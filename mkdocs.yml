@@ -5,10 +5,11 @@ site_author: Anne Deslattes Mays, PhD
 site_url: https://nih-nichd.github.io/eos/
 
 repo_url: https://github.com/adeslatt/Kids-First-INCLUDE-Elements-of-Style-Workflow-Creation-Maintenance
+
 edit_uri: blob/main/docs/
 
 nav:
-   - Home: '../'
+   - Home: ../
    - Agenda:
        - Pre-training: classes/pre-training/pre-training.md
        - Day 1 - Reasoning: classes/day-1-reasoning/day-1-reasoning.md
