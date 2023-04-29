@@ -9,7 +9,7 @@ repo_url: https://github.com/NIH-NICHD/Kids-First-INCLUDE-Elements-of-Style-Work
 edit_uri: blob/main/docs/
 
 nav:
-   - Home: ../
+   - Home: .
    - Agenda:
        - Pre-training: classes/pre-training/pre-training.md
        - Day 1 - Reasoning: classes/day-1-reasoning/day-1-reasoning.md
@@ -33,7 +33,7 @@ extra_css:
 
 markdown_extensions:
     - toc:
-        permalink: [../]
+        permalink: []
     - attr_list
     - def_list
     - tables
