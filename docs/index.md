@@ -1,7 +1,5 @@
 
 
-## 👉 [MARCH 13-MARCH 17, 2023 CLICK TO REGISTER](https://app.smartsheet.com/b/publish?EQBCT=f3810ff59f864c45a4d88ed8b0d08a1f) 👈 
-
 |      |        |
 | ------------- | --------------------------------------------------------------------------- |
 | [<img src="img/kfdrc-logo-sm.png" width="750"  align=left>](https://kidsfirstdrc.org/) | [<img src="img/INCLUDEDataCoordinatingCenter.png" width="750" align=right> ](https://includedcc.org/)  |
